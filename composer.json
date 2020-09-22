@@ -1,0 +1,26 @@
+{
+    "name": "lucaborghy/blogkit",
+    "description": "A starter kit to creare a blog in laravel.",
+    "authors": [
+        {
+            "name": "Luca Borghese",
+            "email": "lucaborghy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "lucaborghy\\blogkit\\BlogkitServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Lucaborghy\\Blogkit\\": "src/"
+        }
+    }
+}
